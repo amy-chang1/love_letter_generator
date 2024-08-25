@@ -33,4 +33,4 @@ def generate_love_letter():
     return render_template('letter.html', letter=letter, name=name)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)
